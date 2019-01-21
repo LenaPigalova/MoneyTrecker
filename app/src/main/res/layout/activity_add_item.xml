@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_pattern"
+    tools:context="com.example.asus.moneytrecker.AddItemActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:paddingRight="22dp"
+        android:paddingLeft="22dp"
+        android:background="@color/colorWhite"
+        >
+        <EditText
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:hint="Название"
+            android:lines="1"
+            android:id="@+id/name_edit_text"
+            android:inputType="text"
+            android:background="@null"></EditText>
+        <EditText
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:hint="0₽"
+            android:layout_marginLeft="8dp"
+            android:layout_gravity="right"
+            android:lines="1"
+            android:id="@+id/price_edit_text"
+            android:inputType="number"
+            android:background="@null"></EditText>
+        <Button
+            android:id="@+id/add_btn"
+            android:enabled="false"
+            android:layout_marginLeft="22dp"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:background="@drawable/ic_add"
+
+            ></Button>
+
+    </LinearLayout>
+
+</LinearLayout>
