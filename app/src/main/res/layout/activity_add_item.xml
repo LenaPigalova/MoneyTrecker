@@ -9,7 +9,7 @@
     tools:context="com.example.asus.moneytrecker.AddItemActivity">
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="68dp"
         android:layout_gravity="center"
         android:orientation="horizontal"
         android:paddingRight="22dp"
@@ -29,13 +29,20 @@
             android:layout_weight="1"
             android:layout_height="wrap_content"
             android:layout_width="match_parent"
-            android:hint="0₽"
+            android:hint="0"
             android:layout_marginLeft="8dp"
-            android:layout_gravity="right"
+            android:gravity="right"
             android:lines="1"
             android:id="@+id/price_edit_text"
-            android:inputType="number"
+            android:inputType="numberSigned"
             android:background="@null"></EditText>
+        <TextView
+            android:id="@+id/rub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="₽"
+            android:textSize="18sp"
+            android:textColor="@color/grayColor"/>
         <Button
             android:id="@+id/add_btn"
             android:enabled="false"
