@@ -1,4 +1,19 @@
 <resources>
-    <string name="app_name">MoneyTrecker</string>
+    <string name="app_name">MoneyTracker</string>
     <string name="add_item_name">Новая запись</string>
+    <string name="entry_of_payment_received">Учёт бюджета</string>
+    <string name="currency_rub">₽</string>
+
+    <string name="tab_title_incomes">Доходы</string>
+    <string name="tab_title_expenditures">Расходы</string>
+    <string name="tab_title_balance">Баланс</string>
+
+    <string-array name="tab_title">
+        <item>@string/tab_title_incomes</item>
+        <item>@string/tab_title_expenditures</item>
+        <item>@string/tab_title_balance</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
